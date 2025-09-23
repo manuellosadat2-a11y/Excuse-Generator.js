@@ -15,6 +15,6 @@ function generateExcuse (){
 window.onload = () =>{
     document.getElementById("excuse").innerHTML = generateExcuse();
 };
-/*******buttom********/ 
+/*******button********/ 
 document.getElementById("newExcuse").addEventListener("click", () => {
 document.getElementById("excuse").innerHTML = generateExcuse();});
